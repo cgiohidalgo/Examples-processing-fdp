@@ -1,4 +1,4 @@
-# 5 ejercicios de ayuda al proyecto Tomb of the Mask 
+# cinco ejercicios de ayuda al proyecto Tomb of the Mask 
 
 # 1. Cambiar enre 4 caritas (caritas.js)
 # 2. Un rectancgulo que se mueve sobre un cuadro de dibujo (rectangulo.js)
