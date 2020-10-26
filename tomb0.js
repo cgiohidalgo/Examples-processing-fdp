@@ -7,10 +7,10 @@
     return Object.assign({}, data, attribute);
   }
 
-  function forEach(l, f, index = 0) {
+  function recursivelist(l, f, index = 0) {
     if (!isEmpty(l)) {
       f(first(l), index);
-      forEach(rest(l), f, index + 1);
+      recursivelist(rest(l), f, index + 1);
     }
   }
 
