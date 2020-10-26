@@ -7,10 +7,10 @@
     return Object.assign({}, data, attribute);
   }
 
-  function forEach(l, f, index = 0) {
+  function recursivelist(l, f, index = 0) {
     if (!isEmpty(l)) {
       f(first(l), index);
-      forEach(rest(l), f, index + 1);
+      recursivelist(rest(l), f, index + 1);
     }
   }
 
@@ -51,8 +51,8 @@
       processing.background(0, 0, 0);
 
   // el caso de que sea 1 en el mapa
-      forEach(mapa, (row, i) => {
-        forEach(row, (cell, j) => {
+      recursivelist(mapa, (row, i) => {
+        recursivelist(row, (cell, j) => {
           if(cell == 1) {
             processing.fill(200, 0, 0);
             //processing.rect(j * SIZE, i * SIZE, SIZE, SIZE);
