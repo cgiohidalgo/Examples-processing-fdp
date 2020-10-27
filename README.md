@@ -4,3 +4,4 @@
 # 2. Un rectancgulo que se mueve sobre un cuadro de dibujo (rectangulo.js)
 # 3. Tomb que se mueve sobre un cuadro, una posicion de un muro y una galleta (tomb0.js). 
 # 4. Un mapa de Tomb donde tiene  2 =galles, 1 =muros  y tomb se mueve sobre el mapa (tomb1.js).
+# 5. Movimeinto de tomb hacia la izquierda (tomb2.js).
